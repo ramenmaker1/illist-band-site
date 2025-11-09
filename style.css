@@ -1,0 +1,166 @@
+/* Global Styles for Illist band website */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: #e0e0e0;
+  background-color: #0e0e0e;
+  line-height: 1.6;
+}
+
+a {
+  color: #00bfff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #66d9ff;
+}
+
+/* Navigation Bar */
+header {
+  background-color: #1b1b1b;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #333;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #f5f5f5;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Section styles */
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+}
+
+.members {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.member {
+  background-color: #1c1c1c;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.member img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.merch-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.merch-item {
+  background-color: #1c1c1c;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.merch-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.merch-item button {
+  padding: 10px 20px;
+  background-color: #00bfff;
+  border: none;
+  border-radius: 4px;
+  color: #0e0e0e;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.merch-item button:hover {
+  background-color: #66d9ff;
+}
+
+/* Footer */
+footer {
+  background-color: #1b1b1b;
+  color: #aaaaaa;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  border-top: 2px solid #333;
+}
+
+.social-links a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.social-links img {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
