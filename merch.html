@@ -4,22 +4,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Merch – Illist</title>
+  <!-- Meta description for the Merch page -->
+  <meta name="description" content="Browse Illist’s merchandise. All items are currently sold out while we prepare a secure checkout.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <h1>Illist</h1>
     <nav>
-      <ul>
+      <!-- Unified navigation -->
+      <ul class="menu">
         <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="news.html">News</a></li>
         <li><a href="merch.html">Merch</a></li>
+        <li>
+          <a href="about.html">About</a>
+          <ul class="submenu">
+            <li><a href="micah.html">Micah Elias</a></li>
+            <li><a href="carson.html">Carson Sekol</a></li>
+            <li><a href="tyler.html">Tyler James</a></li>
+            <li><a href="yanni.html">Yanni Allen</a></li>
+            <li><a href="jerod.html">Jerod Folk</a></li>
+            <li><a href="taylor.html">Taylor Youstra</a></li>
+            <li><a href="cecil.html">Cecil Johnson</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
   <section>
     <h2>Merchandise</h2>
     <p>Rep the band with our exclusive merchandise. These designs were created for this site and are not official merch, but they capture the vibe of Illist’s dark, heavy sound.</p>
+    <!-- Sold out notice -->
+    <p><em>All items are currently sold out. We’re working on integrating secure credit card checkout. Check back soon!</em></p>
     <div class="merch-grid">
       <!-- T‑Shirt -->
       <div class="merch-item">
@@ -27,7 +45,7 @@
         <h3>Illist Logo Tee</h3>
         <p>Classic black t‑shirt featuring the Illist logo. Perfect for concerts and everyday wear.</p>
         <p><strong>$25.00</strong></p>
-        <button type="button">Add to Cart</button>
+        <button type="button" disabled>Sold Out</button>
       </div>
       <!-- Hoodie -->
       <div class="merch-item">
@@ -35,7 +53,7 @@
         <h3>Glass House Hoodie</h3>
         <p>Premium pullover hoodie inspired by our latest single “Glass House.” Warm, comfortable and heavy.</p>
         <p><strong>$45.00</strong></p>
-        <button type="button">Add to Cart</button>
+        <button type="button" disabled>Sold Out</button>
       </div>
       <!-- Mug -->
       <div class="merch-item">
@@ -43,7 +61,7 @@
         <h3>Padlock Mug</h3>
         <p>Start your day with some heaviness. This mug features artwork inspired by our debut single “Padlock.”</p>
         <p><strong>$15.00</strong></p>
-        <button type="button">Add to Cart</button>
+        <button type="button" disabled>Sold Out</button>
       </div>
       <!-- Tote Bag -->
       <div class="merch-item">
@@ -51,12 +69,12 @@
         <h3>Sonder Tote</h3>
         <p>Reusable tote bag with a minimalist Illist graphic, inspired by the single “Sonder.” Ideal for records, groceries and more.</p>
         <p><strong>$20.00</strong></p>
-        <button type="button">Add to Cart</button>
+        <button type="button" disabled>Sold Out</button>
       </div>
     </div>
   </section>
   <footer>
-    <p>&copy; 2025 Illist. This site is maintained by fans for informational purposes.</p>
+    <p>&copy; 2025 Illist. All rights reserved.</p>
   </footer>
 </body>
 </html>
